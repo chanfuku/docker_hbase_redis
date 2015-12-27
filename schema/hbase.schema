@@ -1,0 +1,97 @@
+create 'click2',
+{NAME => 'c', VERSIONS => 1, TTL => 5184000}, {NAME => 'u', VERSIONS => 1, TTL => 5184000}, {NAME => 'b', VERSIONS => 1, TTL => 5184000}, 
+{NAME => 'lg', VERSIONS => 1, TTL => 5184000}, {NAME => 'a', VERSIONS => 1, TTL => 5184000},
+{NAME => 'cl', VERSIONS => 1, TTL => 5184000}
+
+create 'click2_brief',
+{NAME => 'c', VERSIONS => 1, TTL => 86400}, {NAME => 'u', VERSIONS => 1, TTL => 86400}, {NAME => 'b', VERSIONS => 1, TTL => 86400}, 
+{NAME => 'lg', VERSIONS => 1, TTL => 86400}, {NAME => 'a', VERSIONS => 1, TTL => 86400},
+{NAME => 'cl', VERSIONS => 1, TTL => 86400}
+
+create 'cv2',
+{NAME => 'c', VERSIONS => 1, TTL => 5184000}, {NAME => 'u', VERSIONS => 1, TTL => 5184000}, {NAME => 'b', VERSIONS => 1, TTL => 5184000}, 
+{NAME => 'lg', VERSIONS => 1, TTL => 5184000}, {NAME => 'a', VERSIONS => 1, TTL => 5184000},
+{NAME => 'cv', VERSIONS => 1, TTL => 5184000}
+
+create 'cv2_brief',
+{NAME => 'c', VERSIONS => 1, TTL => 86400}, {NAME => 'u', VERSIONS => 1, TTL => 86400}, {NAME => 'b', VERSIONS => 1, TTL => 86400}, 
+{NAME => 'lg', VERSIONS => 1, TTL => 86400}, {NAME => 'a', VERSIONS => 1, TTL => 86400},
+{NAME => 'cv', VERSIONS => 1, TTL => 86400}
+
+create 'imp2',
+{NAME => 'c', VERSIONS => 1, TTL => 5184000}, {NAME => 'u', VERSIONS => 1, TTL => 5184000}, {NAME => 'b', VERSIONS => 1, TTL => 5184000}, 
+{NAME => 'lg', VERSIONS => 1, TTL => 5184000}, {NAME => 'a', VERSIONS => 1, TTL => 5184000},
+{NAME => 'im', VERSIONS => 1, TTL => 5184000}
+
+create 'imp2_brief',
+{NAME => 'c', VERSIONS => 1, TTL => 86400}, {NAME => 'u', VERSIONS => 1, TTL => 86400}, {NAME => 'b', VERSIONS => 1, TTL => 86400}, 
+{NAME => 'lg', VERSIONS => 1, TTL => 86400}, {NAME => 'a', VERSIONS => 1, TTL => 86400},
+{NAME => 'im', VERSIONS => 1, TTL => 86400}
+
+create 'mark2',
+{NAME => 'c', VERSIONS => 1, TTL => 5184000}, {NAME => 'u', VERSIONS => 1, TTL => 5184000}, {NAME => 'b', VERSIONS => 1, TTL => 5184000}, 
+{NAME => 'lg', VERSIONS => 1, TTL => 5184000}, {NAME => 'a', VERSIONS => 1, TTL => 5184000},
+{NAME => 'mk', VERSIONS => 1, TTL => 5184000}
+
+create 'markbu2',
+{NAME => 'c', VERSIONS => 1, TTL => 5184000}, {NAME => 'u', VERSIONS => 1, TTL => 5184000}, {NAME => 'b', VERSIONS => 1, TTL => 5184000}, 
+{NAME => 'lg', VERSIONS => 1, TTL => 5184000}, {NAME => 'a', VERSIONS => 1, TTL => 5184000},
+{NAME => 'mk', VERSIONS => 1, TTL => 5184000}
+
+create 'markgbu2',
+{NAME => 'c', VERSIONS => 1, TTL => 5184000}, {NAME => 'u', VERSIONS => 1, TTL => 5184000}, {NAME => 'b', VERSIONS => 1, TTL => 5184000}, 
+{NAME => 'lg', VERSIONS => 1, TTL => 5184000}, {NAME => 'a', VERSIONS => 1, TTL => 5184000},
+{NAME => 'mk', VERSIONS => 1, TTL => 5184000}
+
+create 'strt', 
+{NAME => 'b', BLOOMFILTER => 'ROW', VERSIONS => 1, TTL => 5184000}, 
+{NAME => 'bp', BLOOMFILTER => 'ROW', VERSIONS => 1, TTL => 5184000}, 
+{NAME => 'wb', BLOOMFILTER => 'ROW', VERSIONS => 1, TTL => 5184000}, 
+{NAME => 'wbp', BLOOMFILTER => 'ROW', VERSIONS => 1, TTL => 5184000}, 
+{NAME => 'wp', BLOOMFILTER => 'ROW', VERSIONS => 1, TTL => 5184000}
+
+create 'strt_brief', 
+{NAME => 'b', BLOOMFILTER => 'ROW', VERSIONS => 1, TTL => 86400}, 
+{NAME => 'bp', BLOOMFILTER => 'ROW', VERSIONS => 1, TTL => 86400}, 
+{NAME => 'wb', BLOOMFILTER => 'ROW', VERSIONS => 1, TTL => 86400}, 
+{NAME => 'wbp', BLOOMFILTER => 'ROW', VERSIONS => 1, TTL => 86400}, 
+{NAME => 'wp', BLOOMFILTER => 'ROW', VERSIONS => 1, TTL => 86400}
+
+create 'metrics2',
+{NAME => 'c', VERSIONS => 1, TTL => 5184000}
+
+create 'bid2',{NAME => 'c', VERSIONS => 1, TTL => 604800},{NAME => 'rq', VERSIONS => 1, TTL => 604800},
+{NAME => 'rs', VERSIONS => 1, TTL => 604800},{NAME => 'sct', VERSIONS => 1, TTL => 604800},
+{NAME => 'mct', VERSIONS => 1, TTL => 604800},{NAME => 'bwd', VERSIONS => 1, TTL => 604800},
+{NAME => 'bht', VERSIONS => 1, TTL => 604800},{NAME => 'bed', VERSIONS => 1, TTL => 604800},
+{NAME => 'bea', VERSIONS => 1, TTL => 604800},{NAME => 'bav', VERSIONS => 1, TTL => 604800},
+{NAME => 'bes', VERSIONS => 1, TTL => 604800},{NAME => 'bep', VERSIONS => 1, TTL => 604800},
+{NAME => 'vmi', VERSIONS => 1, TTL => 604800},{NAME => 'vma', VERSIONS => 1, TTL => 604800},
+{NAME => 'vaf', VERSIONS => 1, TTL => 604800},{NAME => 'vwd', VERSIONS => 1, TTL => 604800},
+{NAME => 'vht', VERSIONS => 1, TTL => 604800},{NAME => 'sc2', VERSIONS => 1, TTL => 604800},
+{NAME => 'bvt', VERSIONS => 1, TTL => 604800},{NAME => 'bat', VERSIONS => 1, TTL => 604800},
+{NAME => 'bct', VERSIONS => 1, TTL => 604800},{NAME => 'ban', VERSIONS => 1, TTL => 604800},{NAME => 'dlg', VERSIONS => 1, TTL => 604800}
+
+create 'ucb',  
+  {NAME => 'cl', VERSIONS => '1', IN_MEMORY => 'true'},  
+  {NAME => 'im', VERSIONS => '1', IN_MEMORY => 'true'}
+
+create 'pla_imp',
+{NAME => 'c', VERSIONS => 1, TTL => 5184000}, {NAME => 'u', VERSIONS => 1, TTL => 5184000}, {NAME => 'p', VERSIONS => 1, TTL => 5184000}, {NAME => 'b', VERSIONS => 1, TTL => 5184000},
+{NAME => 'ct', VERSIONS => 1, TTL => 5184000}, {NAME => 'lg', VERSIONS => 1, TTL => 5184000}, {NAME => 'a', VERSIONS => 1, TTL => 5184000},
+{NAME => 'im', VERSIONS => 1, TTL => 5184000}
+
+create 'pla_click',
+{NAME => 'c', VERSIONS => 1, TTL => 5184000}, {NAME => 'u', VERSIONS => 1, TTL => 5184000}, {NAME => 'p', VERSIONS => 1, TTL => 5184000}, {NAME => 'b', VERSIONS => 1, TTL => 5184000},
+{NAME => 'ct', VERSIONS => 1, TTL => 5184000}, {NAME => 'lg', VERSIONS => 1, TTL => 5184000}, {NAME => 'a', VERSIONS => 1, TTL => 5184000},
+{NAME => 'cl', VERSIONS => 1, TTL => 5184000}
+
+create 'pla_cv',
+{NAME => 'c', VERSIONS => 1, TTL => 5184000}, {NAME => 'u', VERSIONS => 1, TTL => 5184000}, {NAME => 'p', VERSIONS => 1, TTL => 5184000}, {NAME => 'b', VERSIONS => 1, TTL => 5184000},
+{NAME => 'ct', VERSIONS => 1, TTL => 5184000}, {NAME => 'lg', VERSIONS => 1, TTL => 5184000}, {NAME => 'a', VERSIONS => 1, TTL => 5184000},
+{NAME => 'cv', VERSIONS => 1, TTL => 5184000}
+
+create 'pla_mk',
+{NAME => 'c', VERSIONS => 1, TTL => 5184000}, {NAME => 'u', VERSIONS => 1, TTL => 5184000}, {NAME => 'p', VERSIONS => 1, TTL => 5184000}, {NAME => 'b', VERSIONS => 1, TTL => 5184000},
+{NAME => 'ct', VERSIONS => 1, TTL => 5184000}, {NAME => 'lg', VERSIONS => 1, TTL => 5184000}, {NAME => 'a', VERSIONS => 1, TTL => 5184000},
+{NAME => 'mk', VERSIONS => 1, TTL => 5184000}
